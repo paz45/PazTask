@@ -3,7 +3,7 @@
 implementing RabbitMQ connection with two python modules
 
 
-## Usage
+# Usage
 
 1. Open two terminals.
 2. On the first one, run the command 'python producer.py'
