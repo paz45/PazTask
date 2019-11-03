@@ -111,6 +111,7 @@ def callback(ch, method, properties, body):
     year = msg_data[0]
     country = msg_data[1]
     db_path = msg_data[2]
+    print ("year = "+ year + ", country = " + country)
     print("[x] Received %r" %body)
 
     #csv1
