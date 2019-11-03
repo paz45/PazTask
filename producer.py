@@ -37,3 +37,4 @@ channel.queue_declare(queue = 'hello')
 channel.basic_publish(exchange='', routing_key='hello', body = BODY.format(year_from_user(), country_from_user(), DB_PATH))
 
 channel.close()
+
