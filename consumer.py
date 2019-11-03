@@ -149,4 +149,3 @@ channel.basic_consume(
 
 print('[*] Waiting for messages to exit press ctrl + c')
 channel.start_consuming()
-
